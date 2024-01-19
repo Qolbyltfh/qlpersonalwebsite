@@ -4,10 +4,17 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Routes from './routes/index'
 
+import { ThemeProvider } from './components/ThemeContext';
+import Background from './components/Background';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Routes />
+     <ThemeProvider>
+          <Background>
+              <Routes />
+          </Background>
+      </ThemeProvider>
   </React.StrictMode>
 );
 

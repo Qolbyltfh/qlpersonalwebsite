@@ -1,8 +1,12 @@
+import Layout from '../../components/Layout'
+
 const LandingPage = () => {
     return(
-        <div>
-            Test
-        </div>
+        <Layout>
+            <div>
+                Test
+            </div>
+        </Layout>
     )
 }
 
