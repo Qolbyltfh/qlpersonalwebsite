@@ -65,7 +65,7 @@ const Sidebar = () => {
         <div
           className={`${
             mobileMenu ? 'flex' : 'hidden'
-          } absolute z-50 flex-col items-center self-end py-8 mt-16 space-y-6 font-bold sm:w-auto left-6 right-6 dark:text-white  bg-gray-50 dark:bg-slate-800 drop-shadow md rounded-xl`}
+          } absolute z-50 flex-col items-center self-end py-8 mt-16 space-y-6 font-bold sm:w-auto left-6 right-6 dark:text-white  bg-gray-50 dark:bg-black dark:border-[#EBB88C] border drop-shadow md rounded-xl`}
         >
           {Menus.map((menu, index) => (
             <Link
@@ -76,7 +76,7 @@ const Sidebar = () => {
               <span
                 className={` ${
                   location.pathname === menu.path &&
-                  'bg-gray-200 dark:bg-[#EBB88C]'
+                  'bg-[#EBB88C] dark:bg-[#EBB88C]'
                 } p-2 rounded-xl hover:bg-gray-200 dark:hover:bg-[#EBB88C]`}
               >
                 {menu.title}
