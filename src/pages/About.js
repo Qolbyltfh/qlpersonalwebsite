@@ -102,10 +102,10 @@ const About = () => {
           <div className="dark:text-white text-4xl font-bold">About</div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 ">
-          <div class="p-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
+          <div className="p-4">
             <LuUserSquare2 className="w-32 h-32 mb-3 dark:text-white"/>
-            <div class="mb-4 dark:text-white">
+            <div className="mb-4 dark:text-white">
               <div className="dark:text-white text-2xl font-bold mb-3">
                 Profile
               </div>
@@ -134,7 +134,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div class="mb-6  p-3 border border-0.25 border-[#EBB88C] border-solid">
+            <div className="mb-6  p-3 border border-0.25 border-[#EBB88C] border-solid">
               <span className="dark:text-white">
                 I am a Frontend Web Developer by profession. I also have
                 experience in Software Quality Assurance and Fullstack
@@ -144,7 +144,7 @@ const About = () => {
               </span>
             </div>
           </div>
-          <div class="p-4">
+          <div className="p-4">
             <div className="dark:text-white text-2xl font-bold mb-3">
               Technical Experience
             </div>
