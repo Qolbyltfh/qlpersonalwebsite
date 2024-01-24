@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
 import { BsArrowLeftCircle } from 'react-icons/bs'
-import { FiHome, FiArchive, FiTrello, FiUser } from "react-icons/fi";
+import { FiHome, FiArchive, FiTrello, FiUser, FiMap } from "react-icons/fi";
 import HamburgerButton from './HamburgerMenuButton/HamburgerButton'
 import Logo from '../assets/images/logo-ql-colour-removebg-preview.png';
 const Sidebar = () => {
@@ -13,6 +13,7 @@ const Sidebar = () => {
   const Menus = [
     { title: 'Home', path: '/', src: <FiHome /> },
     { title: 'About', path: '/about', src: <FiArchive /> },
+    { title: 'Resume', path: '/resume', src: <FiMap /> },
     { title: 'Projects', path: '/projects', src: <FiTrello /> },
     { title: 'Contact', path: '/contact', src: <FiUser />, },
   ]
