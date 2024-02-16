@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
 import { BsArrowLeftCircle } from 'react-icons/bs'
-import { FiHome, FiArchive, FiTrello, FiUser, FiMap } from "react-icons/fi";
+import { FiHome, FiArchive, FiTrello, FiMap } from "react-icons/fi";
+import { AiFillLinkedin, AiFillGithub, AiOutlineWhatsApp } from "react-icons/ai";
 import HamburgerButton from './HamburgerMenuButton/HamburgerButton'
 import Logo from '../assets/images/logo-ql-colour-removebg-preview.png';
 const Sidebar = () => {
@@ -15,7 +16,6 @@ const Sidebar = () => {
     { title: 'About', path: '/about', src: <FiArchive /> },
     { title: 'Resume', path: '/resume', src: <FiMap /> },
     { title: 'Projects', path: '/projects', src: <FiTrello /> },
-    { title: 'Contact', path: '/contact', src: <FiUser />, },
   ]
 
   return (
@@ -54,6 +54,21 @@ const Sidebar = () => {
             </Link>
           ))}
         </ul>
+
+        <div className={`${open ? 'w-60' : 'w-fit px-5'} fixed bottom-0 left-0 py-5 flex justify-center`}>
+          <div className="flex justify-center pt-6">
+            <a href="https://www.linkedin.com/in/qolby-latifah-7b3b8b185/" target="_blank" rel="noopener noreferrer" className="mr-3">
+              <AiFillLinkedin className={`${open ? 'text-3xl' : 'text-2xl'}  text-gray-700 dark:text-white`} />
+            </a>
+            <a href="https://github.com/Qolbyltfh" target="_blank" rel="noopener noreferrer" className="mr-3">
+              <AiFillGithub className={`${open ? 'text-3xl' : 'text-2xl'} text-gray-700 dark:text-white`} />
+            </a>
+            <a href="https://wa.link/kazl12" target="_blank" rel="noopener noreferrer">
+              <AiOutlineWhatsApp className={`${open ? 'text-3xl' : 'text-2xl'} text-gray-700 dark:text-white`} />
+            </a>
+          </div>
+        </div>
+        
       </div>
       {/* Mobile Menu */}
       <div className="pt-3">
@@ -84,6 +99,17 @@ const Sidebar = () => {
               </span>
             </Link>
           ))}
+            <div className="flex justify-center pt-6">
+              <a href="https://www.linkedin.com/in/qolby-latifah-7b3b8b185/" target="_blank" rel="noopener noreferrer" className="mr-3">
+                <AiFillLinkedin className={`${open ? 'text-3xl' : 'text-2xl'}  text-gray-700 dark:text-white`} />
+              </a>
+              <a href="https://github.com/Qolbyltfh" target="_blank" rel="noopener noreferrer" className="mr-3">
+                <AiFillGithub className={`${open ? 'text-3xl' : 'text-2xl'} text-gray-700 dark:text-white`} />
+              </a>
+              <a href="https://wa.link/kazl12" target="_blank" rel="noopener noreferrer">
+                <AiOutlineWhatsApp className={`${open ? 'text-3xl' : 'text-2xl'} text-gray-700 dark:text-white`} />
+              </a>
+            </div>
         </div>
       </div>
     </>
