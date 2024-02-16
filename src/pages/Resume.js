@@ -50,15 +50,13 @@ const Resume = () => {
                                 PT Walden Global Services
                                 </p>
                                 <p className="mt-0.5 text-sm/6 text-zinc-400">
-                                Settle in, grab some swag, and enjoy a drink with other members
-                                of the community before the keynote.
+                                Since the company I work for focuses on serving client needs, the choice of technology, programming languages, and frameworks is tailored to meet those specific requirements.
                                 </p>
                                 <h3 className="mt-2 text-sm/6 font-semibold text-[#EBB88C]">
                                 Quality Assurance | Aug 2019 - Nov 2019
                                 </h3>
                                 <p className="mt-0.5 text-sm/6 text-zinc-400">
-                                Settle in, grab some swag, and enjoy a drink with other members
-                                of the community before the keynote.
+                                Due to my experience in automated testing, I assist the Software Tester division in conducting automated testing.
                                 </p>
                             </li>
                             <li className="group relative flex flex-col pb-8 pl-7 last:pb-0">
@@ -71,15 +69,13 @@ const Resume = () => {
                                 PT Gudang Solusi Group
                                 </p>
                                 <p className="mt-0.5 text-sm/6 text-zinc-400">
-                                Featuring a keynote presentation from Adam Wathan and live demos
-                                from community members like Sam Selikoff.
+                                My first working experience to enter the coding world! and wow it's very challenging!
                                 </p>
                                 <h3 className="mt-2 text-sm/6 font-semibold text-[#EBB88C]">
                                 Quality Assurance | Jan 2019 - Jun 2019
                                 </h3>
                                 <p className="mt-0.5 text-sm/6 text-zinc-400">
-                                Featuring a keynote presentation from Adam Wathan and live demos
-                                from community members like Sam Selikoff.
+                                This is also my first experience entering the world of application testing, quite interesting
                                 </p>
                             </li>
                             <li className="group relative flex flex-col pb-8 pl-7 last:pb-0">
@@ -92,15 +88,13 @@ const Resume = () => {
                                 Freelance
                                 </p>
                                 <p className="mt-0.5 text-sm/6 text-zinc-400">
-                                Spend the rest of the evening making connections with other
-                                community members over canapés, snacks, and refreshments.
+                                When I have enough free time, I look for side jobs to gain more experience, knowledge, and enhance my projects.
                                 </p>
                                 <h3 className="mt-2 text-sm/6 font-semibold text-[#EBB88C]">
                                 Qualtiy Assurance
                                 </h3>
                                 <p className="mt-0.5 text-sm/6 text-zinc-400">
-                                Spend the rest of the evening making connections with other
-                                community members over canapés, snacks, and refreshments.
+                                Sometimes, I receive offers from my colleagues to work on freelance application testing jobs, and I enjoy it as my side job.
                                 </p>
                             </li>
                         </ul>
