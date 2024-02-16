@@ -3,7 +3,6 @@ import {
   Routes as WrapperRoutes,
   Route,
   BrowserRouter as Router,
-  Navigate,
 } from "react-router-dom";
 
 import My404Component from '../pages/My404Component'
